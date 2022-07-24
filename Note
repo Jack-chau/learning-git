@@ -1,0 +1,49 @@
+You can use zsh or bash for git.
+
+Follow the instruction to download GIT.
+https://git-scm.com/downloads
+
+Check Git version:
+git --version
+
+config git:
+git config --global --user.name "Jack-Chau"
+git config --global --user.email "xxxxx@gmail.com"
+
+check configuration:
+git config -l 
+
+go to the directory that you want to upload to git repository
+git init .
+
+check git status and those file have not uoloaded on git repository
+git status
+
+*** Staging Area ***
+add file
+git add <filen ame>
+
+remove file from repository
+git rm --cached <file name>
+
+remove all file:
+git rm -r --cached ./
+
+*** Commit files to commit history ***
+git commit -m "<file name>"
+
+see log: (you can see the hash here)
+git log
+
+git show <hash>
+
+Diff the different between differernt submission
+git diff
+
+
+
+
+
+
+
+
